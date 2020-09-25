@@ -8,18 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>About</title>
   </head>
   <body>
-  
+
     <div th:replace="fragments/header :: header(content='home')"></div>
 
     <div class="jumbotron">
-        <h1 class="display-4"><p th:text="'Hello, ' + ${name} + '!'" /></h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h1 class="display-4">About</h1>
+        <p class="lead">A brief inctroduction of Spencer Korioth</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <img src="/img/profile.jpg" class="img-thumbnail" alt="profile image">
+        
+        <p>Spencer Korioth is a senior year student at Columbus State University, studying under the Computer Science major's Applied Computing track.<br>
+        One of his favorite non-profits is <a href="https://www.extra-life.org/">Extra Life</a>, which raises money for hospitals within the Children’s Miracle Network.<br>
+        His personal interests include video games and webnovels.</p>
     </div>
 
     <!-- Optional JavaScript -->
@@ -29,4 +32,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
-        
