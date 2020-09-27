@@ -42,6 +42,7 @@
                     $('#apod-desc').html(data.explanation);
                     $('#apod-date').html(data.date);
                     $('#nasaAPOD').css('background',"url('" + data.url + "')");
+                    $('#nasaAPOD').css({"background-repeat":"no-repeat", "background-size":"cover"});
                 },
                 error: function(e){
                     console.log(e);
