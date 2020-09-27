@@ -1,14 +1,8 @@
 html {text-align: center; font-family: "Times New Roman", Times, Serif; padding: 0; margin: 0; background-color: darkgrey;}
 h1, h2, h3, h4, nav {font-family: "Arial", sans-serif;}
 
-.contact {border: solid; border-width: 1px; clear: left; overflow: auto;}
-.contact img {max-width: 10%; float: left;}
-dt {background-color: Gainsboro;}
-dl {margin-left: 12%;}
-
 h1 {color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 
 main {line-height: 150%; text-align: left; padding: 20px 20px;}
 
 #apod-date, #apod-desc{color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
-
