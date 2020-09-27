@@ -2,13 +2,13 @@ package com.example.springboot;
 
 public class Blog
 {
-    private String message;
+    private String blog;
 
-    public String getMessage(){
-        return message;
+    public String getBlog(){
+        return blog;
     }
 
-    public void setMessage(String newMessage){
-        this.message = newMessage;
+    public void setBlog(String newBlog){
+        this.blog = newBlog;
     }
 }

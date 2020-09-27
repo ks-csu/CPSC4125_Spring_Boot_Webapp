@@ -40,6 +40,10 @@ public class HelloController {
     }
 
     //add POST like contact, publicBlog(Blog); takes string. add blog.java file (done). use contact, only with set and get.
-    //@PostMapping("/blog")
-    //public String postBlog(Model model, @RequestBody ? ?)
+    @PostMapping("/blog")
+    public String postBlog(Model model, @RequestBody Blog blog){
+        System.out.println(blog.getBlog());
+        model.addAttribute("message", blog.getBlog());
+        return "fragments/blogPost :: #blogEntry";
+    }
 }
